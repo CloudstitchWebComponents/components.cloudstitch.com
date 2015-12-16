@@ -1,0 +1,30 @@
+{
+  "name": "CloudstitchWebComponents",
+  "version": "0.0.0",
+  "authors": [
+    "Ted Benson <ted@cloudstitch.com>"
+  ],
+  "description": "An element providing a solution to no problem in particular.",
+  "ignore": [
+    "/.*",
+    "/test/",
+    "/demo/"
+  ],
+  "directory": "components",
+  "dependencies": {
+    "polymer": "Polymer/polymer#~1.2.0",
+    "cloudstitch-spreadsheet": "CloudstitchWebComponents/cloudstitch-spreadsheet",
+    "cloudstitch-box": "CloudstitchWebComponents/cloudstitch-box",
+    "cloudstitch-handlebars": "CloudstitchWebComponents/cloudstitch-handlebars",
+    "cloudstitch-mustache": "CloudstitchWebComponents/cloudstitch-mustache",
+    "cloudstitch-dust": "CloudstitchWebComponents/cloudstitch-dust",
+    "cloudstitch-ejs": "CloudstitchWebComponents/cloudstitch-ejs",
+    "cloudstitch-jade": "CloudstitchWebComponents/cloudstitch-jade",
+    "cloudstitch-polymer": "CloudstitchWebComponents/cloudstitch-polymer",
+    "cloudstitch-d3": "CloudstitchWebComponents/cloudstitch-d3"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page",
+    "web-component-tester": "*"
+  }
+}
